@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Split Landing Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="split-top">
+            <h1>Alexander's 68k Emulator</h1>
+        </div>
+        <div class="split-mid">
+            <div class="split-code">
+                <a id="load" class="btn">Load</a>
+                <h2>Source Code</h2>
+                <p class="source-code">move #1, D0</p>
+                <p class="source-code">add  #3, D0</p>
+            </div>
+            <div class="split-opcode">
+                <a id="assemble" class="btn">Assemble</a>
+                <h2>Opcode</h2>
+                <p class="opcode">00xxx</p>
+                <p class="opcode">0xDxx0 1101 0000 00xx xxxx</p>
+            </div>
+            <div class="split-registers">
+                <a id="run" class="btn">run</a>
+                <h2>Registers</h2>
+            </div>
+            <div class="split-memory">
+                <h2>Memory</h2>
+            </div>
+        </div>
+        <div class="split-bottom">
+            <h2>Footer</h2>
+            <p>Footer</p>
+        </div>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
