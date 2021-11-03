@@ -39,7 +39,7 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.source-code, .opcode {
+.source-code, .opcode, .register {
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
     color: #fff;
